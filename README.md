@@ -13,7 +13,7 @@ $ npm start
 
 The application listens on the default ExpressJS development port (port 3000). So to see the sample application open your browser and point it to http://localhost:3000.
 
-## Changes need in the 'upstream'
+## Changes needed in the 'upstream'
 - [ ] Integration of this code into the ACF City Select Javascript assets.
 - [ ] Write a new PHP function to return the Country list via an AJAX request rather than hard coded via PHP.
 - [ ] Adjust the return JSON formats if needs (the implementation tried to stay as close as possible to the original data format).
