@@ -1,0 +1,77 @@
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" 
+            data-toggle="collapse" data-target="#navbar" aria-expanded="false" 
+            aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">City Select Dev</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+<!--          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul> -->
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Users</h2>
+                <div class="alert alert-info">Click on rows to load the user into the "Edit" form.</div>
+                    <table id="usertable" class="table table-condensed table-hover">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>First name</th>
+                                <th>Last name</th>
+                                <th>Country</th>
+                                <th>State</th>
+                                <th>City</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div> <!-- col-md-6 -->
+            <div class="col-md-4">
+                <h2>Edit</h2>
+                <div class="form-group">
+                    <span id="user-id" data-userid="" class="hidden"></span>
+                    <label class="control-label">First name</label>
+                    <p id="user-Firstname" class="form-control-static"></p>
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Second name</label>
+                    <p id="user-Lastname" class="form-control-static"></p>
+                </div>
+                <div class="form-group">
+                    <label for="acfCountrySelect">Country</label>
+                    <select id="acfCountrySelect" name="acfCountrySelect" class="form-control">
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="acfStateSelect">State</label>
+                    <select id="acfStateSelect" name="acfStateSelect" class="form-control">
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="acfCitySelect">City</label>
+                    <select id="acfCitySelect" name="acfStateSelect" class="form-control">
+                    </select>
+                </div>
+                <div class="form-group">
+                    <button id="updateUserButton" type="button" class="btn btn-primary">Update</button>
+                </div>
+            </div>
+        </div> <!-- /.row -->
+    </div><!-- /.container -->
+
+
